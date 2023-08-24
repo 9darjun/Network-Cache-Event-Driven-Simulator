@@ -1,0 +1,16 @@
+[Simulation]
+
+Total_Requests = 40000
+Time_Limit = 600
+Num_Files = 20000
+Request_Rate = 100.0
+Network_Bandwidth = 100
+Access_Link_Bandwidth = 10
+Round_Trip = 0.9
+Pareto_Alpha = 3
+Cache_Size = 400
+Cache_Type = LF
+
+[Debug]
+logging=True
+show_plot=False
