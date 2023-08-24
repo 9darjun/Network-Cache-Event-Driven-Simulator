@@ -1,6 +1,4 @@
-# Team Members
-10045167 - Venkata Shiva Sai Mallikarjun, Devasani
-11205059 - Ram Sundeep, Koduru
+Author - Venkata Shiva Sai Mallikarjun, Devasani
 
 
 # Installing requirements
@@ -26,16 +24,16 @@ optional arguments:
   -h, --help  show this help message and exit
 
 
-                                 python ./main.py ./input.lru.light 2
+python./main.py./input.lru.light 2
 
 
 # Outputs
 
-Outputs will be printed to stdout after simulation completes. The response time and various metrics associated with it (mean, min, max, percentiles, etc.) will be shown at the bottom, with other statistics of interest printed above.
+Outputs will be printed to stdout after the simulation completes. The response time and various metrics associated with it (mean, min, max, percentiles, etc.) will be shown at the bottom, with other statistics of interest printed above.
 
-In addition, two plots will be generated and written to file based on the input file name and the seed number. 
+In addition, two plots will be generated and written to a file based on the input file name and the seed number.
 
-The one ending in "*scatter.png" will display a scatter plot of all FileRecievedEvents response times, the y-axis displaying the response time for that event.
-The x-axis for this scatterplot does not have any significant information, and only shows the index/order the plot point was recorded. The red points indicate a cache miss, while the blue points are cache hits.
+The one ending in "*scatter.png" will display a scatter plot of all FileReceivedEvents response times, with the y-axis displaying the response time for that event.
+The x-axis for this scatterplot does not have any significant information and only shows the index/order the plot point was recorded. The red points indicate a cache miss, while the blue points are cache hits.
 
 The one ending in "*hist.png" is a histogram of the response times.
